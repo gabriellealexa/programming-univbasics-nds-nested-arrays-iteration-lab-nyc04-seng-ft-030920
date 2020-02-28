@@ -22,13 +22,12 @@ result
 end 
 
 def total_even_pairs(src)
-
   total = 0
   out = 0 
   
   while out < src.length do
     inner = 0
-    while inner < src[out].length do
+    while inner < src[out].count do
       if src[out][0] % 2 == 0 && src[out][1] % 2 == 0
       total += src[out][0] + src[out][1]
       inner += 1 
