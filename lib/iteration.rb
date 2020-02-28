@@ -29,8 +29,6 @@ def total_even_pairs(src)
       if (src[out][0] % 2 == 0) && (src[out][1] % 2 == 0)
       total += (src[out][0] + src[out][1])
     end 
-      inner += 1 
-    end
     out += 1 
   end
   total 
