@@ -29,7 +29,7 @@ def total_even_pairs(src)
     inner = 0
     while inner < src[out].length do
       if (src[out][0] % 2 == 0) && (src[out][1] % 2 == 0)
-      total += (src[out][0] + src[out][1]
+      total += (src[out][0] + src[out][1])
       inner += 1 
     end
     out += 1 
